@@ -1,0 +1,41 @@
+.jumbotron {
+    text-align: center;
+  }
+  #featured-image {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #current-weather {
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  #fact-table {
+    width: 100%;
+    margin-top: 10px;
+  }
+  #fact-table table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  #fact-table table,
+  th,
+  td {
+    border: 1px solid black;
+  }
+  #hemisphere-container img {
+    width: 100%;
+  }
+  .hemisphere {
+    margin-bottom: 20px;
+    border: 2px solid grey;
+    overflow: hidden;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  .hemisphere h4 {
+    text-align: center;
+    margin: 2px;
+  }
