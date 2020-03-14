@@ -25,10 +25,8 @@ def scraper():
         try:
             first_headline = soup.find("div", class_="image_and_description_container")
             first_headline_title = first_headline.find("div", class_="content_title").text
-            first_headline_title
 
             first_headline_teaser = first_headline.find("div", class_="article_teaser_body").text
-            first_headline_teaser
         except:
             print("process did not complete successfully")
         else:

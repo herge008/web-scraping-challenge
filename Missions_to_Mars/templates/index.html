@@ -21,7 +21,7 @@
       <div class="container">
         <h1 class="display-4">Mission to Mars</h1>
 
-        <a class="btn btn-primary" href="/scrape">Scrape New Data</a>
+        <a class="btn btn-primary" href="/scraper">Scrape New Data</a>
       </div>
     </div>
     <div class="container">
@@ -38,6 +38,7 @@
           <img
             id="featured-image"
             src="{{mars.featured_image_url}}"
+            width="80%"
             alt="Featured Image"
           />
         </div>
@@ -58,7 +59,7 @@
           {% for pic in mars.hemisphere_image_urls %}
           <div class="col-md-6">
             <div class="hemisphere">
-              <img src="{{pic.img_url}}" alt="{{pic.title}}" />
+              <img src="{{pic.img_url}}" alt="{{pic.title}}" width="80%" />
               <h4>{{pic.title}}</h4>
             </div>
           </div>
